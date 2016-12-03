@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fragment_item_types_music_audio_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/item_type"/>
+
+    <TextView
+        android:id="@+id/fragment_item_types_music_audio_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fragment_item_types_music_audio_image"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Hip Hop"
+        android:textSize="24sp" />
+</RelativeLayout>

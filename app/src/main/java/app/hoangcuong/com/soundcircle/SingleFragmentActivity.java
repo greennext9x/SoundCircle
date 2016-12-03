@@ -1,4 +1,4 @@
-package app.hoangcuong.com.sunset;
+package app.hoangcuong.com.soundcircle;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
